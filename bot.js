@@ -23,6 +23,9 @@ let indexes = []
 const menu = []
 
 const outputPath = 'docs/'
+if (!fs.existsSync(path.join('public', 'docs'))) {
+  fs.mkdirSync(path.join('public', 'docs'))
+}
 
 // clone 中文文档
 const docsPath = path.resolve(__dirname, 'docs', 'cn')
