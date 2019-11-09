@@ -1,0 +1,19 @@
+# system files
+**/.DS_Store
+**/.vscode
+
+# dependencies
+**/node_modules
+
+# build output
+**/dist
+**/release
+**/coverage
+**/yarn-error.log
+# logs
+**/npm-debug.log
+**/.git
+#data
+**/docs/
+yarn.lock
+public/indexes.json
